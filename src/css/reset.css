@@ -32,4 +32,8 @@ img {
 
 .body {
   font-family: 'Inter Tight', sans-serif;
+
+  font-optical-sizing: auto;
+
+  font-style: normal;
 }
