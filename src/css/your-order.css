@@ -71,6 +71,7 @@
 .soc-list {
   display: flex;
   /* align-items: center; */
+
   width: 295px;
   gap: 8px;
 }
