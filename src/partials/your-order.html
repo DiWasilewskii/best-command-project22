@@ -1,3 +1,69 @@
 <section class="your-order">
-    <p>your-order</p>
+    <div class="your-order-text">
+        <h2 class="your-order-title">Fresh <span class="your-order-span">Harvest</span>Box has got you covered</h2>
+        <p class="your-order-p">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking
+            to eat healthier or
+            support local
+            farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+    </div>
+    <!-- form -->
+    <div class="your-order-formbox">
+        <form class="your-order-form">
+            <h3 class="order-form-title headline3">
+                Ordering <span class="span-first-item">from us</span> is quick and
+                easy! Fill out <span class="span-second-item">the form</span> below
+                and we will contact you !
+            </h3>
+            <label class="form-label"><input type="text" name="user-name" placeholder="Full Name" class="input-field"
+                    required /></label>
+            <label class="form-label">
+                <input type="email" name="user-mail" placeholder="Email" class="input-field" required
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" />
+            </label>
+            <label class="taxtarea-label">
+                <textarea name=" user-comment" placeholder="Comment" class="comment-field"></textarea>
+            </label>
+            <button type="submit" class="order-btn button">Send</button>
+        </form>
+
+    </div>
+    <!-- form -->
+    <div class="your-order-soc">
+
+
+        <picture>
+            <source srcset="./img/your-order/your-order-descktop.jpg    1x,
+                                          ./img/your-order/your-order-descktop-2x.jpg 2x
+                                        " media="(min-width: 1280px)" />
+            <source srcset="./img/your-order/your-order-tablet.jpg    1x,
+                                          ./img/your-order/your-order-tablet-2x.jpg 2x
+                                        " media="(min-width: 768px)" />
+            <source srcset="./img/your-order/your-order-mob.jpg    1x,
+                                          ./img/your-order/your-order-mob-2x.jpg 2x
+                                        " media="(max-width: 767px)" />
+            <img class="your-order-img" src="./img/your-order/your-order-mob.jpg" alt="juice in botle">
+        </picture>
+        <p class="soc-title">Follow us on our social networks:</p>
+        <ul class="soc-list">
+            <li class="soc-item">
+                <a class="soc-linc" href="https://www.instagram.com/goitclub/" target="_blank">
+                    <p class="soc-text">instagram <span>/</span></p>
+                </a>
+            </li>
+
+            <li class="soc-item">
+                <a class="soc-linc" href="https://www.facebook.com/goITclub/" target="_blank">
+                    <p class="soc-text">facebook <span>/</span></p>
+                </a>
+            </li>
+
+            <li class="soc-item">
+                <a class="soc-linc" href="https://www.youtube.com/c/GoIT" target="_blank">
+                    <p class="soc-text">youtube</p>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
 </section>
