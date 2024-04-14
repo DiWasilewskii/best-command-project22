@@ -143,7 +143,7 @@
 
 .order-btn:focus,
 .order-btn:hover {
-  box-shadow: 1px 6px 36px 6px rgba(37, 71, 6, 0.71);
+  box-shadow: 1px 6px 36px 6px rgba(37, 71, 6, 0.1);
   background-color: #344f33;
 }
 
