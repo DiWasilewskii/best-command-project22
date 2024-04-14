@@ -70,13 +70,11 @@
 
 .soc-list {
   display: flex;
-  /* align-items: center; */
-
-  width: 295px;
+  flex-wrap: wrap;
   gap: 8px;
 }
 .soc-item {
-  width: calc((100% - 8px * 3) / 2);
+  /* width: calc((100% - 8px * 3) / 2); */
 }
 
 .soc-linc {
