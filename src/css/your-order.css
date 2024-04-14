@@ -42,6 +42,115 @@
 .your-order-form {
 }
 
+.order-form-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  color: #141414;
+  margin-bottom: 40px;
+}
+
+.order-form-title .span-first-item {
+  color: #7a3145;
+}
+
+.order-form-title .span-second-item {
+  color: #576f35;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.taxtarea-label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  padding: 14px 16px;
+  width: 100%;
+  outline: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #141414;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-field::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.input-field:focus,
+.input-field:hover {
+  border-color: #7a3145;
+}
+
+.input-field:valid {
+  border-color: #3cbc81;
+}
+
+.input-field:invalid {
+  border-color: #e74a3b;
+}
+
+.comment-field {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 15px;
+  padding: 14px 16px;
+  width: 100%;
+  height: 91px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #141414;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comment-field::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.comment-field:focus,
+.comment-field:hover {
+  border-color: #7a3145;
+}
+
+.order-btn {
+  border: none;
+  width: 100%;
+  padding: 16px;
+  background-color: #576f35;
+  color: #fbfbfb;
+  transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-btn:focus,
+.order-btn:hover {
+  box-shadow: 1px 6px 36px 6px rgba(37, 71, 6, 0.71);
+  background-color: #344f33;
+}
+
+.button {
+  border-radius: 30px;
+}
+
 /* form */
 .your-order-soc {
   border-radius: 30px;
@@ -74,7 +183,6 @@
   gap: 8px;
 }
 .soc-item {
-  /* width: calc((100% - 8px * 3) / 2); */
 }
 
 .soc-linc {
