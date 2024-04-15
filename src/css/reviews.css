@@ -1,3 +1,7 @@
+.reviews {
+  background-color: #fbfbfb;
+}
+
 .reviews-wrap {
   display: flex;
   align-items: flex-start;
@@ -7,7 +11,7 @@
   padding: 80px 20px;
   width: 375px;
   height: 662px;
-  background: #fbfbfb;
+
 }
 
 .reviews-title-wrap {
