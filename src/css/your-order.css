@@ -194,7 +194,7 @@ ul {
   .your-order-formbox {
     padding-left: 54px;
     padding-right: 54px;
-    width: 628px;
+    max-width: 628px;
     height: 534px;
     margin-left: auto;
     margin-right: auto;
@@ -272,7 +272,7 @@ ul {
   .your-order-soc {
     padding: 50px;
     margin: 0 auto;
-    width: 599px;
+    max-width: 628px;
     height: 476px;
   }
   .your-order-img {
@@ -293,6 +293,13 @@ ul {
   }
   .soc-list {
     gap: 12px;
+  }
+  .soc-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
   }
   .picture-order {
     margin-bottom: 50px;
