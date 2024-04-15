@@ -2,12 +2,12 @@ body {
   font-family: 'Inter Tight', sans-serif;
 }
 
-.container {
+/* .container {
   width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
-}
+} */
 
 .hero {
   position: relative;
@@ -46,6 +46,7 @@ body {
   color: #fbfbfb;
   width: 335px;
   margin-bottom: 20px;
+  padding-left: 20px;
 }
 
 .hero-text {
@@ -54,18 +55,15 @@ body {
   line-height: 1.29;
   color: #fbfbfb;
   width: 335px;
-}
-
-.br {
-  display: none;
+  padding-left: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-  }
+  } */
 
   .hero {
     max-width: 768px;
@@ -94,6 +92,7 @@ body {
     font-size: 76px;
     width: 704px;
     margin-bottom: 25px;
+    padding-left: 32px;
   }
 
   .hero-text {
@@ -101,15 +100,16 @@ body {
     line-height: 1.25;
     width: 603px;
     margin-bottom: 50px;
+    padding-left: 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
-  }
+  } */
 
   .hero {
     padding-top: 238px;
@@ -138,13 +138,15 @@ body {
     width: 502px;
     height: 304px;
     margin-bottom: 128px;
+    padding-left: 100px;
   }
 
   .hero-text {
     display: block;
     margin-right: 30px;
-    max-width: 472px;
+    max-width: 502px;
     height: 80px;
+    padding-left: 100px;
   }
 
   .hero-container {
@@ -153,9 +155,4 @@ body {
     height: 562px;
     margin: 0px 28px 0 100px;
   }
-
-  .br {
-    display: block;
-  }
 }
-
