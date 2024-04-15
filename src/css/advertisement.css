@@ -1,10 +1,13 @@
+.advertisement-wrap {
+  background: #fbfbfb;
+}
 .advertisement {
   padding: 80px 10px;
   background: #fbfbfb;
 }
 
 .ad-text {
-  font-family: "Inter Tight", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 50px;
@@ -20,12 +23,11 @@
   padding: 8px 10px;
   border-radius: 12px;
   border: none;
-  background-color: #576F35;
-  color: #FBFBFB;
+  background-color: #576f35;
+  color: #fbfbfb;
 }
 
 @media screen and (min-width: 375px) {
-
   .advertisement {
     max-width: 375px;
     margin: 0 auto;
@@ -33,7 +35,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .advertisement {
     max-width: 768px;
     padding: 100px 16px;
@@ -49,11 +50,9 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-
 }
 
 @media screen and (min-width: 1280px) {
-
   .advertisement {
     max-width: 1280px;
     padding: 100px;
@@ -81,4 +80,3 @@
     right: 30px;
   }
 }
-
