@@ -4,12 +4,6 @@ form {
   unicode-bidi: isolate;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .your-order {
   background-color: #7a3145;
   padding: 80px 20px;
@@ -47,22 +41,18 @@ ul {
     max-width: 375px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .your-order {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-
   .your-order-text {
     max-width: 768px;
   }
-
   .your-order-title {
     margin-bottom: 25px;
     font-size: 64px;
   }
-
   .your-order-p {
     font-size: 16px;
     line-height: 1.25;
@@ -201,6 +191,10 @@ ul {
   .your-order-formbox {
     padding-left: 54px;
     padding-right: 54px;
+    width: 628px;
+    height: 534px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .your-order-form {
@@ -208,23 +202,19 @@ ul {
     margin-left: auto;
     margin-right: auto;
   }
-
   .order-form-title {
     max-width: 428px;
     margin-bottom: 50px;
   }
-
   .taxtarea-label {
     margin-bottom: 25px;
   }
-
   .order-btn {
     padding: 16px 191px;
     width: 428px;
     height: 52px;
   }
 }
-
 /* form */
 .your-order-soc {
   border-radius: 30px;
@@ -237,22 +227,11 @@ ul {
   margin-right: 70px;
   flex-direction: column;
 }
-
 .picture-order {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
   margin-bottom: 20px;
-}
-
-.picture-order:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #1414144d;
 }
 
 .your-order-img {
@@ -286,7 +265,6 @@ ul {
   letter-spacing: -0.01em;
   color: #fbfbfb;
 }
-
 @media screen and (min-width: 768px) {
   .your-order-soc {
     padding: 50px;
@@ -295,46 +273,38 @@ ul {
     width: 599px;
     height: 476px;
   }
-
   .picture-order {
     margin-bottom: 50px;
   }
-
   .soc-title {
     font-size: 18px;
     line-height: 1.11;
     margin-bottom: 15px;
   }
-
   .soc-list {
     gap: 12px;
   }
-
   .picture-order {
     margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .order-box {
+  .your-order-formbox {
     flex-direction: row;
     gap: 24px;
     padding: 0;
   }
-
   .your-order-text {
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
   }
-
   .your-order-title {
     max-width: 751px;
   }
-
   .your-order-p {
     max-width: 751px;
   }
-
   .your-order-form {
     padding: 50px;
   }
