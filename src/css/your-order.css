@@ -306,8 +306,10 @@
     display: flex;
   }
   .your-order-formbox {
+    width: 527px;
+    height: 534px;
     flex-direction: row;
-    gap: 24px;
+    margin-right: 24px;
     padding: 0;
   }
   .your-order-text {
@@ -324,11 +326,10 @@
   .your-order-form {
     padding: 50px;
   }
-  .your-order-formbox {
-    margin-right: 24px;
-  }
 
   .your-order-soc {
+    width: 527px;
+    height: 534px;
     margin-left: 24px;
   }
 }
