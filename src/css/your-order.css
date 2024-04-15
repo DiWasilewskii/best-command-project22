@@ -1,13 +1,9 @@
-form {
+.form {
   display: block;
   margin-top: 0em;
   unicode-bidi: isolate;
 }
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+
 .your-order {
   background-color: #7a3145;
   padding: 80px 20px;
@@ -306,6 +302,9 @@ ul {
   }
 }
 @media screen and (min-width: 1280px) {
+  .order-form-soc {
+    display: flex;
+  }
   .your-order-formbox {
     flex-direction: row;
     gap: 24px;
@@ -324,5 +323,12 @@ ul {
   }
   .your-order-form {
     padding: 50px;
+  }
+  .your-order-formbox {
+    margin-right: 24px;
+  }
+
+  .your-order-soc {
+    margin-left: 24px;
   }
 }
