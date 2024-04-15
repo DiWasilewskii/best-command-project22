@@ -324,11 +324,11 @@ ul {
   }
 }
 @media screen and (min-width: 1280px) {
-  .your-order-formbox {
-    flex-direction: row;
-    gap: 24px;
-    padding: 0;
-  }
+  .order-box {
+      flex-direction: row;
+      gap: 24px;
+      padding: 0;
+    }
 
   .your-order-text {
     max-width: 1280px;
