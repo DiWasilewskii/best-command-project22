@@ -1,23 +1,36 @@
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .your-order {
   background-color: #7a3145;
   padding: 80px 20px;
-  width: 375px;
-  height: 1519px;
+
 }
 
 .your-order-text {
-  margin-bottom: 40px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
+
 .your-order-title {
   font-weight: 600;
   font-size: 48px;
-
   line-height: 1.04;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
-  padding-bottom: 29px;
+  margin-bottom: 25px;
 }
+
 .your-order-span {
   color: rgba(251, 251, 251, 0.3);
 }
@@ -25,21 +38,61 @@
 .your-order-p {
   font-weight: 500;
   font-size: 14px;
-
   line-height: 1.29;
   color: #fbfbfb;
+  margin-bottom: 40px;
 }
+
+@media screen and (min-width: 375px) {
+  .your-order-text {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .your-order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .your-order-text {
+    max-width: 768px;
+
+  }
+
+  .your-order-title {
+    margin-bottom: 25px;
+    font-size: 64px;
+  }
+
+  .your-order-p {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
+
+
+}
+
 
 /* form */
 .your-order-formbox {
   border-radius: 30px;
-  padding: 40px 20px;
-  width: 335px;
-  height: 533px;
-  background: #fbfbfb;
   margin-bottom: 20px;
+  background: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+
+
 }
+
 .your-order-form {
+  padding: 50px 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-form-title {
@@ -47,7 +100,7 @@
   font-weight: 600;
   font-size: 24px;
   color: #141414;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .order-form-title .span-first-item {
@@ -151,14 +204,65 @@
   border-radius: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .your-order-formbox {
+    padding-left: 54px;
+    padding-right: 54px;
+
+  }
+
+  .your-order-form {
+    padding: 50px 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .order-form-title {
+    max-width: 428px;
+    margin-bottom: 50px;
+  }
+
+  .taxtarea-label {
+    margin-bottom: 25px;
+  }
+
+  .order-btn {
+    padding: 16px 191px;
+    width: 428px;
+    height: 52px;
+  }
+}
+
 /* form */
 .your-order-soc {
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
-  height: 465px;
   background: #576f35;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  flex-direction: column;
 }
+
+.picture-order {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.picture-order:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1414144d;
+}
+
 .your-order-img {
   border-radius: 15px;
   width: 295px;
@@ -167,32 +271,81 @@
   color: rgba(20, 20, 20, 0.3);
   margin-bottom: 20px;
 }
+
 .soc-title {
   font-weight: 600;
   font-size: 14px;
-
   line-height: 1.29;
-  letter-spacing: -0.01em;
   color: rgba(251, 251, 251, 0.5);
+  letter-spacing: -.01em;
   margin-bottom: 14px;
 }
 
 .soc-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-}
-.soc-item {
+  gap: 12px;
 }
 
-.soc-linc {
-}
+
 .soc-text {
   font-weight: 600;
   font-size: 24px;
-
   line-height: 1.08;
   letter-spacing: -0.01em;
   color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .your-order-soc {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 599px;
+    height: 476px;
+  }
+
+  .picture-order {
+    margin-bottom: 50px;
+  }
+
+  .soc-title {
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 15px;
+  }
+
+  .soc-list {
+    gap: 12px;
+  }
+
+  .picture-order {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .order-box {
+      flex-direction: row;
+      gap: 24px;
+      padding: 0;
+    }
+
+  .your-order-text {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .your-order-title {
+    max-width: 751px;
+  }
+
+  .your-order-p {
+    max-width: 751px;
+  }
+
+  .your-order-form {
+    padding: 50px;
+  }
 }
 
