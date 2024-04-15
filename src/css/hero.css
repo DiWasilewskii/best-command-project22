@@ -2,13 +2,6 @@ body {
   font-family: 'Inter Tight', sans-serif;
 }
 
-.container {
-  width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
-
 .hero {
   position: relative;
   height: 812px;
@@ -62,9 +55,9 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    /* width: 768px;
     padding-left: 32px;
-    padding-right: 32px;
+    padding-right: 32px; */
   }
 
   .hero {
@@ -105,11 +98,11 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
-  }
+  } */
 
   .hero {
     padding-top: 238px;
@@ -147,12 +140,12 @@ body {
     height: 80px;
   }
 
-  .hero-container {
+  /* .hero-container {
     padding: 0px 0px 50px 0px;
     max-width: 502px;
     height: 562px;
     margin: 0px 28px 0 100px;
-  }
+  } */
 
   .br {
     display: block;
