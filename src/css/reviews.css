@@ -9,7 +9,7 @@
   flex-direction: column;
   gap: 40px;
   padding: 80px 20px;
-  width: 375px;
+
   height: 662px;
 
 }
@@ -20,7 +20,7 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-  width: 335px;
+  max-width: 335px;
   height: 224px;
 
 }
@@ -57,7 +57,7 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
-  width: 303px;
+
   height: 180px;
 }
 
@@ -70,7 +70,7 @@
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
   padding: 20px 16px 38px 16px;
-  width: 335px;
+  max-width: 335px;
   height: 238px;
   background: #fbfbfb;
   margin: 0 auto;
@@ -88,7 +88,7 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  width: 302px;
+
   height: 100px;
 
 
@@ -211,7 +211,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 18px;
-    width: 343px;
+
     height: 258px;
   }
 
